@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Admin Panel</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.cb9155a33d28beadd671.css"></head>
+
+<body>
+  <app-root>
+    <div class="text-center" style="margin-top: 10%;text-align: center;">
+      <p>Admin Panel Loading....</p>
+    </div>
+  </app-root>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(() => {
+      $(".sidebar-tree-parent").click((obj) => {
+        console.log(obj)
+        obj.target.nextElementSibling.classList.toggle("hidden")
+      })
+    })
+  </script>
+<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.f6ae3e8b63939c618130.js"></script><script type="text/javascript" src="main.9a161fbfd00f3c8fe62d.js"></script></body>
+
+</html>
